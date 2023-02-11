@@ -50,6 +50,7 @@ nav .nav-list li {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .product-nav-list li {
