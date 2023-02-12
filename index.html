@@ -5,53 +5,121 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css">
   <script src="https://kit.fontawesome.com/08edd7b20e.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="images/logo.svg.png">
+  <link rel="stylesheet" href="css/index.css">
   <title>OInJo</title>
 </head>
 
 <body>
   <header>
-    <div class="nav-top">
-      <div class="logo">OInJo</div>
-      <div class="search-bar-wrapper">
-        <input type="text" placeholder="Search" class="search-bar">
-        <i class="fa-sharp fa-solid fa-magnifying-glass" class="search-icon"></i>
+    <!-- <i class="fa-solid fa-bars"></i> mobile icon, fixed로 연결예정 -->
+    <div class="header-top">
+      <img src="images/logo.svg.png" alt="OInJo 로고" class="header-top-logo">
+      <div class="header-top-right">
+        <div class="header-top-right-search"><input type="text" placeholder="Search"><i
+            class="fa-solid fa-magnifying-glass"></i></div>
+        <div class="header-top-right-ranking"><button>실시간 검색어</button>후드티 [1위]</div>
       </div>
     </div>
-    <div class="mobile-nav-icon"><i class="fa-solid fa-bars"></i></div>
-    <nav>
-      <ul class="nav-list">
-        <li>로그인</li>
-        <li>최근본상품</li>
-        <li>장바구니</li>
-        <li>배송조회</li>
-      </ul>
-    </nav>
+    <ul class="header-nav">
+      <li class="header-nav-list">로그인</li>
+      <li class="header-nav-list">최근본상품</li>
+      <li class="header-nav-list">장바구니</li>
+      <li class="header-nav-list">배송조회</li>
+    </ul>
   </header>
   <main>
-    <aside class="product-nav">
-      <div class="category-wrapper">
-        <div>상의</div>
-        <div>하의</div>
+    <aside>
+      <div class="aside-category">
+        <button class="aside-category-button">상의</button>
+        <button class="aside-category-button">하의</button>
       </div>
-      <ul class="product-nav-list">
-        <li>Best</li>
-        <li>Sale</li>
-        <li>Outer</li>
-        <li>Pants</li>
-        <li>Shoes</li>
+      <ul class="aside-nav">
+        <li class="aside-nav-list">반팔</li>
+        <li class="aside-nav-list">스웨트 셔츠</li>
+        <li class="aside-nav-list">후드티</li>
+        <li class="aside-nav-list">코트</li>
+        <li class="aside-nav-list">패딩</li>
       </ul>
     </aside>
-    <article class="product-wrapper">
-      <img src="images/sample.png" alt="상품 이미지" class="product-image">
-      <div class="product-name">루키 언스트럭쳐 볼캡 NY</div>
-      <div class="product-brand">MLB</div>
-      <div class="product-proce">19,000원</div>
-      <div class="product-heart"><i class="fa-solid fa-heart product-heart-icon"></i>123</div>
+    <section class="article-product-wrapper">
+    <article class="article-product">
+      <img src="images/product.png" alt="상품 이미지" class="article-product-image">
+      <div class="article-product-name">루키 언스트럭쳐 볼캡 NY</div>
+      <div class="article-product-brand">MLB</div>
+      <div class="article-product-price">19,000원</div>
+      <div class="article-product-heart"><i class="fa-solid fa-heart product-heart-icon"></i>123</div>
     </article>
+    <article class="article-product">
+      <img src="images/product.png" alt="상품 이미지" class="article-product-image">
+      <div class="article-product-name">루키 언스트럭쳐 볼캡 NY</div>
+      <div class="article-product-brand">MLB</div>
+      <div class="article-product-price">19,000원</div>
+      <div class="article-product-heart"><i class="fa-solid fa-heart product-heart-icon"></i>123</div>
+    </article>
+    <article class="article-product">
+      <img src="images/product.png" alt="상품 이미지" class="article-product-image">
+      <div class="article-product-name">루키 언스트럭쳐 볼캡 NY</div>
+      <div class="article-product-brand">MLB</div>
+      <div class="article-product-price">19,000원</div>
+      <div class="article-product-heart"><i class="fa-solid fa-heart product-heart-icon"></i>123</div>
+    </article>
+    <article class="article-product">
+      <img src="images/product.png" alt="상품 이미지" class="article-product-image">
+      <div class="article-product-name">루키 언스트럭쳐 볼캡 NY</div>
+      <div class="article-product-brand">MLB</div>
+      <div class="article-product-price">19,000원</div>
+      <div class="article-product-heart"><i class="fa-solid fa-heart product-heart-icon"></i>123</div>
+    </article>
+    <article class="article-product">
+      <img src="images/product.png" alt="상품 이미지" class="article-product-image">
+      <div class="article-product-name">루키 언스트럭쳐 볼캡 NY</div>
+      <div class="article-product-brand">MLB</div>
+      <div class="article-product-price">19,000원</div>
+      <div class="article-product-heart"><i class="fa-solid fa-heart product-heart-icon"></i>123</div>
+    </article>
+
+    <article class="article-product">
+      <img src="images/product.png" alt="상품 이미지" class="article-product-image">
+      <div class="article-product-name">루키 언스트럭쳐 볼캡 NY</div>
+      <div class="article-product-brand">MLB</div>
+      <div class="article-product-price">19,000원</div>
+      <div class="article-product-heart"><i class="fa-solid fa-heart product-heart-icon"></i>123</div>
+    </article>
+    <article class="article-product">
+      <img src="images/product.png" alt="상품 이미지" class="article-product-image">
+      <div class="article-product-name">루키 언스트럭쳐 볼캡 NY</div>
+      <div class="article-product-brand">MLB</div>
+      <div class="article-product-price">19,000원</div>
+      <div class="article-product-heart"><i class="fa-solid fa-heart product-heart-icon"></i>123</div>
+    </article>
+    <article class="article-product">
+      <img src="images/product.png" alt="상품 이미지" class="article-product-image">
+      <div class="article-product-name">루키 언스트럭쳐 볼캡 NY</div>
+      <div class="article-product-brand">MLB</div>
+      <div class="article-product-price">19,000원</div>
+      <div class="article-product-heart"><i class="fa-solid fa-heart product-heart-icon"></i>123</div>
+    </article>
+    <article class="article-product">
+      <img src="images/product.png" alt="상품 이미지" class="article-product-image">
+      <div class="article-product-name">루키 언스트럭쳐 볼캡 NY</div>
+      <div class="article-product-brand">MLB</div>
+      <div class="article-product-price">19,000원</div>
+      <div class="article-product-heart"><i class="fa-solid fa-heart product-heart-icon"></i>123</div>
+    </article>
+    <article class="article-product">
+      <img src="images/product.png" alt="상품 이미지" class="article-product-image">
+      <div class="article-product-name">루키 언스트럭쳐 볼캡 NY</div>
+      <div class="article-product-brand">MLB</div>
+      <div class="article-product-price">19,000원</div>
+      <div class="article-product-heart"><i class="fa-solid fa-heart product-heart-icon"></i>123</div>
+    </article>
+  </section>
+    
   </main>
   <footer>
+
   </footer>
 </body>
 
