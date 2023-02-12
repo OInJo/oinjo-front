@@ -22,7 +22,6 @@ header {
 main {
   display:flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
 }
 
 .nav-top {
@@ -46,6 +45,11 @@ nav .nav-list li {
   cursor: pointer;
 }
 
+.product-nav {
+  display:flex;
+  flex-direction: column;
+}
+
 .product-nav-list {
   display: flex;
   justify-content: center;
@@ -55,7 +59,6 @@ nav .nav-list li {
 
 .product-nav-list li {
   font-size: 20px;
-  margin-right: 1em;
 }
 
 .search-bar-wrapper {
