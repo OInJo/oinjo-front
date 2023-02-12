@@ -18,6 +18,10 @@ aside {
 
 article {
   flex-basis: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 footer {
@@ -120,6 +124,25 @@ aside {
 }
 
 /* article styling */
+.article-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-product-image {
+  width: 80px;
+}
+
+.article-product-name {
+  font-weight: 600;
+}
+
+.article-product-brand {
+  font-size: 12px;
+  font-weight: 400;
+}
 
 
 /* footer styling */
