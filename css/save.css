@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.join {
+    height: 100%;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; 
+    background-color: #FFFFFF;
+}
+.uid, .pw, .name, .nickname, .address, .phone { 
+    height: 80px;
+    width: 310px;
+}
+.uid input, .pw input, .name input, .nickname input {
+    background-color:rgb(236, 237, 233);
+    border-radius: 5px;
+    width: 300px;
+    height: 40px
+}
+.addressphone {
+    background-color:rgb(236, 237, 233);
+    border-radius: 5px;
+    width: 250px;
+    height: 40px
+}
+.search-button {
+    border-radius: 5px;
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+    background-color:rgb(175, 188, 201);
+    float: right;
+    text-align: center
+}
+.save-button {
+    border-radius: 5px;
+    width: 307px;
+    height: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+    background-color:rgb(175, 188, 201);
+    text-align: center;    
+}
+.password-box {
+    display: flex;
+}
+.clear {
+    margin-left: -45px;
+    margin-top: 12px;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;   
+}
+body {
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    background: #e2e2e2;
+}
