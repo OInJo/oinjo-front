@@ -14,7 +14,7 @@ main {
 }
 
 aside {
-  flex-basis: 10%;
+  flex-basis: 15%;
 }
 
 footer {
@@ -25,6 +25,7 @@ footer {
 ul {
   list-style: none;
   padding: 0;
+  margin:0;
 }
 
 body {
@@ -33,6 +34,10 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'PT Sans', sans-serif;
+}
+
+section {
+  flex-basis:85%;
 }
 
 /* header styling */
@@ -90,39 +95,86 @@ body {
 }
 
 /* aside styling */
-aside {
+.aside-category-wrapper {
   display: flex;
   flex-direction: column;
+  gap:12px;
+  align-items: center;
 }
 
 .aside-category {
+  width:100%;
+}
+
+input[id*="category"] {
+  display: none;
+}
+
+input[id*="category"]+label {
+  display: block;
+  font-weight: 900;
+  padding:20px;
+  cursor: pointer;
+  font-size:20px;
+  border-bottom:1px solid black;
+}
+
+input[id*="category"]+label span {
+  padding-left:10px;
+  font-size:12px;
+  font-weight: 400;
+}
+
+input[id*="category"]+label+ul {
+  max-height: 0;
+  transition: all .35s;
+  overflow: hidden;
+}
+
+input[id*="category"]+label+ul li {
+  padding: 5px 10px;
+  font-size:15px;
+  cursor:pointer;
+}
+
+input[id*="category"]:checked+label+ul {
+  max-height: 500px;
+}
+
+/* product top styling */
+
+.article-product-top {
   display: flex;
-  height: 10%;
   justify-content: space-between;
-  padding: 2px;
+  padding:30px;
 }
 
-.aside-category-button {
-  all: unset;
-  width: 49%;
-  text-align: center;
-  background-color: bisque;
+@keyframes now-category-anim {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.now-category {
+  font-size:20px;
+  font-weight: 600;
+  padding:10px;
+  border: 1px solid black;
+  animation:now-category-anim 1.5s infinite ease-in-out;
 }
 
-.aside-nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+.now-select-option {
+  /* 추가 예정 */
 }
 
 /* article styling */
 .article-product-wrapper {
-  flex-basis: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap:20px;
+  gap: 20px;
 }
 
 .article-product {
@@ -152,7 +204,9 @@ aside {
   font-size: 16px;
 }
 
-.article-product-heart {}
+.article-product-heart {
+  padding-left:130px;
+}
 
 .article-product-heart i {
   color: red;
