@@ -23,8 +23,7 @@ h1 {
 }
 
 .logo-text {
-    color:#5bbad5;
-    padding:0;
+    font-family: 'Noto Serif KR', serif;
 }
 
 form {
