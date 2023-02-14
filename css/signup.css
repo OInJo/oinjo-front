@@ -3,6 +3,11 @@ h1 {
     font-size: 40px;
 }
 
+a {
+    text-decoration: none;
+    color:black;
+}
+
 .join {
     height: 100%;
     width: 900px;
