@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
     align-items: center; 
     background-color: #FFFFFF;
      font-family: 'Noto Serif KR', serif;
