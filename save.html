@@ -2,32 +2,31 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/signup.css">   
+    <link rel="stylesheet" type="text/css" href="css/save.css">   
     <title>회원가입</title>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="icon" href="images/logo.png">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <script src="js/signup.js" defer></script>
+    <script src="js/save.js" defer></script>
     <link rel="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
     <div class="join">
         <form action="/member/save" method="post">
-            <a href="index.html"><h1 class="logo-text">OInJo</h1></a>
+            <h1>OInJo</h1>
             <div class="uid">
                 <p>이메일</p>
-                <input type="email" name="memberEmail" id="user-email" placeholder="a.naver.com">
+                <input type="email" name="memberEmail" id="user-email" placeholder="ex) aa@n.c">
             </div>
             <div class="pw">
                 <p>비밀번호</p>
                 <div class="password-box">
                     <input type="password" name="memberPassword" id="user-password" onchange="check_password()" placeholder="영문, 숫자, 특수문자 포함 10자 이상">            
-                    <div class="password-clear">X</div>
+                    <div class="clear">X</div>
                 </div>
             </div>
             <div class="name">

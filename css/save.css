@@ -2,107 +2,67 @@ h1 {
     text-align: center;
     font-size: 40px;
 }
-
-a {
-    text-decoration: none;
-    color:black;
-}
-
 .join {
     height: 100%;
     width: 900px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: center;
+    justify-content: center;
+    align-items: center; 
     background-color: #FFFFFF;
 }
-
-.logo {
-    padding: 10px;
-    height: 100px;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logo-text {
-    font-family: 'Noto Serif KR', serif;
-}
-
-form {
-    display:flex;
-    flex-direction: column;
-    gap:20px;
-}
-
-.uid,
-.pw,
-.name,
-.nickname,
-.address,
-.phone {
+.uid, .pw, .name, .nickname, .address, .phone { 
     height: 80px;
     width: 310px;
 }
-
-.uid input,
-.pw input,
-.name input,
-.nickname input {
-    background-color: rgb(236, 237, 233);
+.uid input, .pw input, .name input, .nickname input {
+    background-color:rgb(236, 237, 233);
     border-radius: 5px;
     width: 300px;
     height: 40px
 }
-
 .addressphone {
-    background-color: rgb(236, 237, 233);
+    background-color:rgb(236, 237, 233);
     border-radius: 5px;
     width: 250px;
     height: 40px
 }
-
 .search-button {
     border-radius: 5px;
     width: 50px;
     height: 45px;
     cursor: pointer;
-    background-color: rgb(175, 188, 201);
+    background-color:rgb(175, 188, 201);
     float: right;
     text-align: center
 }
-
 .save-button {
     border-radius: 5px;
     width: 307px;
     height: 40px;
     margin-top: 40px;
     cursor: pointer;
-    background-color: rgb(175, 188, 201);
-    text-align: center;
+    background-color:rgb(175, 188, 201);
+    text-align: center;    
 }
-
 .password-box {
     display: flex;
 }
-
-.password-clear {
-    margin-left: -30px;
-    margin-top: 15px;
-    opacity: 0.5;
+.clear {
+    margin-left: -45px;
+    margin-top: 12px;
     width: 20px;
     text-align: center;
-    cursor: pointer;
+    cursor: pointer;   
 }
-
 body {
     height: 1024px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     margin: 0;
     background: #e2e2e2;
 }
