@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Serif+KR&display=swap');
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 .login-form {
     height: 100%;
     width: 700px;
@@ -7,9 +13,6 @@
     flex-wrap: nowrap;
     align-items: center; 
     background-color: #FFFFFF;
-     font-family: 'Noto Serif KR', serif;
-    
-    
 }
 body{ 
     height: 1024px;
@@ -41,6 +44,7 @@ body{
     display:flex;
     flex-direction: column;
     position: relative;
+    
 }
 
 .login-form .id-pw-input-wrapper input {
@@ -50,12 +54,13 @@ body{
     box-sizing: border-box;
     background: #EEECEC;
     margin-bottom:15px;
+    
 }
 
 
 .login-form h2 {
     font-size: 32px; color: black;
-    
+    font-family: 'NanumSquareNeo-Variable';
 }
 .login-form h3 {
     font-size: 32px; color: black;
@@ -65,18 +70,13 @@ body{
     width: 307px;
     height: 40px;
     cursor: pointer;
-    background: #545151; 
+    background: #31363d; 
     color:white;
     margin: 15px;
+    font-size: 20px;
+    border: none;
+    font-family: 'OTWelcomeRA';
 }
-/*
-input[type="submit"] {
-    width: 250px;
-    height: 54px;   
-    cursor: pointer;
-    background: #545151; 
-}*/
-
 .id-pw-input-wrapper input{
     all:unset;
     padding:5px;
@@ -87,6 +87,7 @@ input[type="submit"] {
 }
 
 .signin-button-wrapper {
+    
     margin-bottom:20px;
 }
 .login-form img {
