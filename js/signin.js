@@ -1,8 +1,8 @@
 const del = document.querySelector(".delete");
-const inputText = document.querySelector("#input-text"); 
+const inputText = document.querySelector("#input-text");
 
 function testFunction() {
   inputText.value = "";
 }
 
-del.addEventListener("click", testFunction); 
+del.addEventListener("click", testFunction);

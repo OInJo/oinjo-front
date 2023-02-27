@@ -2,6 +2,7 @@ h1 {
     text-align: center;
     font-size: 40px;
 }
+
 h3 {
     font-family: 'GangwonEdu_OTFBoldA';
     text-align: left;
@@ -11,7 +12,7 @@ h3 {
 
 a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 .join {
@@ -40,9 +41,9 @@ a {
 
 
 form {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
 }
 
 /* 밑 부분 폰트 */
@@ -66,7 +67,14 @@ p {
 }
 
 /* 입력란 */
-.uid, .pw, .rpw, .name, .nickname, .address, .phone {
+.uid,
+.pw,
+.rpw,
+.name,
+.nickname,
+.address,
+.phone,
+.certification {
     font-family: 'GangwonEdu_OTFBoldA';
     display: flex;
     width: 450px;
@@ -77,7 +85,7 @@ p {
 .uid input,
 .pw input,
 .name input,
-.nickname input, 
+.nickname input,
 .rpw input {
     font-family: 'GangwonEdu_OTFBoldA';
     margin-left: 10px;

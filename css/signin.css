@@ -5,91 +5,103 @@
     font-weight: normal;
     font-style: normal;
 }
+
 .login-form {
     height: 100%;
     width: 700px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: center; 
+    align-items: center;
     background-color: #FFFFFF;
 }
-body{ 
+
+body {
     height: 1024px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     margin: 0;
     background: #D9D9D9;
 }
+
 .login-form h1 {
     font-family: 'Song Myung', serif;
-    font-size: 50px; color: black;
-    
+    font-size: 50px;
+    color: black;
+
 }
+
 .login-form ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
+
 .login-form li {
     padding: 0 0 19px;
-    list-style: none;   
+    list-style: none;
 }
 
 .id-pw-input-wrapper {
-    display:flex;
+    display: flex;
     flex-direction: column;
     position: relative;
-    
+
 }
 
 .login-form .id-pw-input-wrapper input {
     font-size: 20px;
     width: 385px;
-    height: 54px; 
+    height: 54px;
     box-sizing: border-box;
     background: #EEECEC;
-    margin-bottom:15px;
-    
+    margin-bottom: 15px;
+
 }
 
 
 .login-form h2 {
-    font-size: 32px; color: black;
+    font-size: 32px;
+    color: black;
     font-family: 'NanumSquareNeo-Variable';
 }
+
 .login-form h3 {
-    font-size: 32px; color: black;
-    
+    font-size: 32px;
+    color: black;
+
 }
+
 .login-button {
     width: 307px;
     height: 40px;
     cursor: pointer;
-    background: #31363d; 
-    color:white;
+    background: #31363d;
+    color: white;
     margin: 15px;
     font-size: 20px;
     border: none;
     font-family: 'OTWelcomeRA';
 }
-.id-pw-input-wrapper input{
-    all:unset;
-    padding:5px;
+
+.id-pw-input-wrapper input {
+    all: unset;
+    padding: 5px;
 }
 
 .pw-input {
-    display:flex;
+    display: flex;
 }
 
 .signin-button-wrapper {
-    
-    margin-bottom:20px;
+
+    margin-bottom: 20px;
 }
+
 .login-form img {
     width: 250px;
     height: 54px;
@@ -101,17 +113,16 @@ body{
     text-decoration: none;
     color: #111;
 }
-.delete{
-    width:50px;
+
+.delete {
+    width: 50px;
     height: 54px;
-    border:0;
-    background-color:#eeecec;
-    color:gray;
+    border: 0;
+    background-color: #eeecec;
+    color: gray;
 }
 
 
 #input-text {
-    width:335px;
+    width: 335px;
 }
-
-
