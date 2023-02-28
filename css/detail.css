@@ -72,7 +72,7 @@ section {
 }
 
 .select-product-wrapper {
-  display: flex;
+  display: none;
   align-items: center;
   gap: 20px;
   padding-bottom: 20px;
@@ -110,7 +110,7 @@ section {
 }
 
 .select-product-total-price-wrapper {
-  display: flex;
+  display: none;
   justify-content: space-between;
   border-bottom: 1px solid dimgray;
   padding-bottom: 20px;
